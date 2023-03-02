@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    /*background: -webkit-linear-gradient(left, #83EAF1, #006699);*/
+    /*background: -webkit-linear-gradient(left, #00A995, #63a4ff);*/
+    background: url("assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.form-control {
+    border-radius: 0;
+    padding: 20px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.register{
+
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right {
+    /* background: #f8f9fa; */
+    /* border-top-left-radius: 10% 50%; */
+    /* border-bottom-left-radius: 10% 50%; */
+    background-color: #ffffff;
+    border-radius: 15px;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #251f1f00;
+    /* color: blue; */
+}
+
+.btn-skin {
+    background-color: #0062cc;
+    border-color: #0062cc;
+}
+.box h4 {
+    font-size: 24px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.service-desc h5 {
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+footer .widget h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.intro-content {
+    /*background: url(../img/dummy/bg1.jpg) no-repeat top center;*/
+    background: -webkit-linear-gradient(left, #00A995, #63a4ff);
+    /*background:-webkit-linear-gradient(left, #3931af, #00c6ff);*/
+    padding: 200px 0 60px;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form {
+    padding: 0;
+    margin-top: 0;
+}
+.btnRegister {
+    /* float: right; */
+    margin-top: 15px;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 15px 0;
+    background: #006699;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs {
+    margin-top: 0;
+    border: none;
+    background: #006699;
+    border-radius: 30px;
+    width: 100%;
+}
+.register .nav-tabs .nav-link {
+    padding: 10px 0;
+    height: auto;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    width: 100%;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    color: #006699;
+    border: 2px solid #006699;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+
+header .navbar {
+    background-color: #ffffff;
+    border-radius: 0;
+    padding: 15px 20px;
+    margin-top: 15px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #333333;
+    font-size: 14px;
+    margin: 0 15px;
+    font-weight: 500;
+    position: relative;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover,header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+    color: #006699;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover:after,header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link.active:after {
+    width: 100%;
+    transition:0.2s;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    border-radius: 30px;
+    background-color: #006699;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.navbar-toggler {
+    background-color: #006699;
+}
+
+@media screen and (max-width: 767px) {
+    .register .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+    .register-right {
+        padding: 15px;
+    }
+    .register-heading {
+        font-size: 22px;
+    }
+    .btnRegister {
+        width: 100%;
+    }
+}
