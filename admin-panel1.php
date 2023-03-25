@@ -323,6 +323,7 @@ if(isset($_POST['docsub1']))
                     <th scope="col">Email</th>
                     <th scope="col">Contact</th>
                     <th scope="col">Password</th>
+                    <th scope="col">operation</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -349,9 +350,10 @@ if(isset($_POST['docsub1']))
                         <td>$contact</td>
                         <td>$password</td>
                       </tr>";
+                                             
                     }
-
                   ?>
+                  
                 </tbody>
               </table>
         <br>
@@ -411,6 +413,7 @@ if(isset($_POST['docsub1']))
                         <td>$disease</td>
                         <td>$allergy</td>
                         <td>$pres</td>
+                        <form>
                       </tr>";
                     }
 
